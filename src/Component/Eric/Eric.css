@@ -1,0 +1,75 @@
+.Eric {
+    max-width: 100vw;
+    margin-top: 51px;
+    margin-bottom: 55px;
+    padding: 0 5.1244vw;
+}
+
+.parentbook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booktext .btn1 {
+    color: var(--violet, #C689C6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.028px;
+    background: none;
+    border-radius: 3px;
+    border: 1px solid var(--violet, #C689C6);
+
+
+    padding: 10.014px;
+
+
+}
+
+.booktext h3 {
+    margin-top: 31px;
+    color: black;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.booktext p {
+    margin-top: 31px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 551px;
+
+
+}
+
+.booktext .btn2 {
+    margin-top: 31px;
+    color: #fff;
+    border: none;
+
+    width: 185px;
+    height: 45px;
+    padding: 12.017px 32.044px;
+    border-radius: 2px;
+    background: var(--Primary, #937DC2);
+}
+
+.bigbook img {
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+    .booktext h3 {
+        font-size: 28px;
+    }
+
+    .bigbook img {
+        margin-top: 34px;
+    }
+}
