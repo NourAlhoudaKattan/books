@@ -10,7 +10,7 @@ import { ThemeProvider } from '../Contexts/theme.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  
-  <BrowserRouter>
+  <BrowserRouter basename='/books/'>
    <React.StrictMode>
     <ThemeProvider>
     <App />
